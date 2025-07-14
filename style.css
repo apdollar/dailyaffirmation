@@ -1,39 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height:100vh;
-    margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  color: #1f2937;
 }
+
 .container {
-    background: white;
-    border-radius: 10px;
+  background: white;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
-  margin-bottom: 1rem;
-  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
 }
 
-#affirmation {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
-  color: #555;
+.affirmation {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  min-height: 3.5em; /* Reserve space to avoid layout shift */
+  color: #334155;
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #2563eb;
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 5px;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #45a049;
+button:hover,
+button:focus {
+  background-color: #1d4ed8;
+  outline: none;
+}
+
+button:active {
+  background-color: #1e40af;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
 }
