@@ -1,3 +1,22 @@
+header {
+  background: #2563eb;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.10);
+}
+header h2 {
+  margin: 0;
+  font-weight:600;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
@@ -71,3 +90,7 @@ footer a:hover,
 footer a:focus {
   text-decoration: underline;
 }
+
+footer a { color: #2563eb; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
